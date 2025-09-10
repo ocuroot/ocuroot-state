@@ -1,6 +1,9 @@
 {
   "kind": "ref",
   "body_type": "release.ReleaseInfo",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@0.3.11-2"
+  ],
   "body": {
     "commit": "f7d4e39898833445d9c24778196749eba5c4a088",
     "package": {
