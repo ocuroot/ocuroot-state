@@ -1,0 +1,50 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-10T14:27:36.486617-04:00",
+      "message": "0.3",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-10T14:27:36.524872-04:00",
+      "message": "fatal: ambiguous argument '0.3.10..f7d4e39898833445d9c24778196749eba5c4a088': unknown revision or path not in the working tree.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-10T14:27:36.525116-04:00",
+      "message": "Use '--' to separate paths from revisions, like this:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-10T14:27:36.525939-04:00",
+      "message": "'git \u003ccommand\u003e [\u003crevision\u003e...] -- [\u003cfile\u003e...]'",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    }
+  ]
+}
