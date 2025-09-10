@@ -1,0 +1,285 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "3decca51762304c12ab9eae7f290cf9a0416f859",
+    "package": {
+      "functions": {
+        "build/release.ocu.star:70:1": {
+          "function": {
+            "name": "build",
+            "pos": "release.ocu.star:70:1"
+          }
+        },
+        "endtoend/release.ocu.star:18:1": {
+          "function": {
+            "name": "endtoend",
+            "pos": "release.ocu.star:18:1"
+          }
+        },
+        "increment_version/release.ocu.star:28:1": {
+          "function": {
+            "name": "increment_version",
+            "pos": "release.ocu.star:28:1"
+          }
+        },
+        "promote/release.ocu.star:129:1": {
+          "function": {
+            "name": "promote",
+            "pos": "release.ocu.star:129:1"
+          }
+        },
+        "release/release.ocu.star:150:1": {
+          "function": {
+            "name": "release",
+            "pos": "release.ocu.star:150:1"
+          }
+        },
+        "unit_test/release.ocu.star:8:1": {
+          "function": {
+            "name": "unit_test",
+            "pos": "release.ocu.star:8:1"
+          }
+        }
+      },
+      "phases": [
+        {
+          "name": "unit",
+          "tasks": [
+            {
+              "task": {
+                "name": "unit_test",
+                "inputs": {},
+                "fn": {
+                  "name": "unit_test",
+                  "pos": "release.ocu.star:8:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "endtoend",
+          "tasks": [
+            {
+              "task": {
+                "name": "endtoend",
+                "inputs": {},
+                "fn": {
+                  "name": "endtoend",
+                  "pos": "release.ocu.star:18:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "version",
+          "tasks": [
+            {
+              "task": {
+                "name": "increment_version",
+                "inputs": {
+                  "prev_prerelease": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease",
+                    "default": "0.3.11-1"
+                  },
+                  "prev_version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/release#output/version",
+                    "default": "0.3.10"
+                  }
+                },
+                "fn": {
+                  "name": "increment_version",
+                  "pos": "release.ocu.star:28:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "build",
+          "tasks": [
+            {
+              "task": {
+                "name": "build_linux_amd64",
+                "inputs": {
+                  "arch": {
+                    "value": "amd64"
+                  },
+                  "os": {
+                    "value": "linux"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            },
+            {
+              "task": {
+                "name": "build_linux_arm64",
+                "inputs": {
+                  "arch": {
+                    "value": "arm64"
+                  },
+                  "os": {
+                    "value": "linux"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            },
+            {
+              "task": {
+                "name": "build_darwin_amd64",
+                "inputs": {
+                  "arch": {
+                    "value": "amd64"
+                  },
+                  "os": {
+                    "value": "darwin"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            },
+            {
+              "task": {
+                "name": "build_darwin_arm64",
+                "inputs": {
+                  "arch": {
+                    "value": "arm64"
+                  },
+                  "os": {
+                    "value": "darwin"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            },
+            {
+              "task": {
+                "name": "build_windows_amd64",
+                "inputs": {
+                  "arch": {
+                    "value": "amd64"
+                  },
+                  "os": {
+                    "value": "windows"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            },
+            {
+              "task": {
+                "name": "build_windows_arm64",
+                "inputs": {
+                  "arch": {
+                    "value": "arm64"
+                  },
+                  "os": {
+                    "value": "windows"
+                  },
+                  "version": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "build",
+                  "pos": "release.ocu.star:70:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "promote",
+          "tasks": [
+            {
+              "task": {
+                "name": "promote",
+                "inputs": {
+                  "approval": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/custom/promote",
+                    "doc": "Manually promote this release by running \n        ocuroot state set \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r3/custom/promote\" 1\n        ocuroot state apply \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r3/custom/promote\""
+                  }
+                },
+                "fn": {
+                  "name": "promote",
+                  "pos": "release.ocu.star:129:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "release",
+          "tasks": [
+            {
+              "task": {
+                "name": "release",
+                "inputs": {
+                  "bucket_path_darwin_amd64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_darwin_amd64#output/bucket_path"
+                  },
+                  "bucket_path_darwin_arm64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_darwin_arm64#output/bucket_path"
+                  },
+                  "bucket_path_linux_amd64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_linux_amd64#output/bucket_path"
+                  },
+                  "bucket_path_linux_arm64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_linux_arm64#output/bucket_path"
+                  },
+                  "bucket_path_windows_amd64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_windows_amd64#output/bucket_path"
+                  },
+                  "bucket_path_windows_arm64": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_windows_arm64#output/bucket_path"
+                  },
+                  "prerelease": {
+                    "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease"
+                  }
+                },
+                "fn": {
+                  "name": "release",
+                  "pos": "release.ocu.star:150:1"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
