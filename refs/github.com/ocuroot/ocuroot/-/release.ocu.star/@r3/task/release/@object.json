@@ -1,0 +1,45 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/release"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/release/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3",
+    "input": {
+      "bucket_path_darwin_amd64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_darwin_amd64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/darwin-amd64"
+      },
+      "bucket_path_darwin_arm64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_darwin_arm64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/darwin-arm64"
+      },
+      "bucket_path_linux_amd64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_linux_amd64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/linux-amd64"
+      },
+      "bucket_path_linux_arm64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_linux_arm64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/linux-arm64"
+      },
+      "bucket_path_windows_amd64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_windows_amd64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/windows-amd64"
+      },
+      "bucket_path_windows_arm64": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_windows_arm64#output/bucket_path",
+        "value": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/windows-arm64"
+      },
+      "prerelease": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease",
+        "value": "0.3.11-3"
+      }
+    },
+    "output": {
+      "version": "0.3.11"
+    }
+  }
+}
