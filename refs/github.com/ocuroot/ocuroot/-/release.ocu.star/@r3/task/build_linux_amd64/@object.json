@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/build_linux_amd64"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/build_linux_amd64/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3",
+    "input": {
+      "arch": {
+        "value": "amd64"
+      },
+      "os": {
+        "value": "linux"
+      },
+      "version": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r3/task/increment_version#output/prerelease",
+        "value": "0.3.11-3"
+      }
+    },
+    "output": {
+      "bucket_path": "ocuroot_binaries:client-binaries/ocuroot/0.3.11-3/linux-amd64",
+      "download_url": "https://downloads.ocuroot.com/ocuroot/0.3.11-3/linux-amd64/ocuroot"
+    }
+  }
+}
