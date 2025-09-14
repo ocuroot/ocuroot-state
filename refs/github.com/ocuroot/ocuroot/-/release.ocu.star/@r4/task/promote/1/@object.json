@@ -1,0 +1,31 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4",
+    "functions": [
+      {
+        "fn": {
+          "name": "promote",
+          "pos": "release.ocu.star:129:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_linux_amd64/*/status/complete",
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_linux_arm64/*/status/complete",
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_darwin_amd64/*/status/complete",
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_darwin_arm64/*/status/complete",
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_windows_amd64/*/status/complete",
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/task/build_windows_arm64/*/status/complete"
+        ],
+        "inputs": {
+          "approval": {
+            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r4/custom/promote",
+            "doc": "Manually promote this release by running \n        ocuroot state set \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r4/custom/promote\" 1\n        ocuroot state apply \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r4/custom/promote\""
+          }
+        }
+      }
+    ],
+    "output": null
+  }
+}
