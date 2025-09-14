@@ -1,0 +1,270 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-14T13:24:51.171212-04:00",
+      "message": "0.3",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.212431-04:00",
+      "message": "94efb38 Show the first user-defined position as the source of Starlark errors",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.212815-04:00",
+      "message": "a517023 Merge pull request #79 from ocuroot/65-bug-with-argskwargs-in-taskdeploy-functions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.213177-04:00",
+      "message": "44ff33b Fix issue with args \u0026 kwargs in tasks/deploys",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.2136-04:00",
+      "message": "c53f7a4 Ensure the REPL runs with the right working directory",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.214002-04:00",
+      "message": "4fd1615 Improve error message when repo.ocu.star is missing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.214472-04:00",
+      "message": "4819f50 Fix handling of phaseless tasks",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.214868-04:00",
+      "message": "4c4c739 Fix panic loading a shared store",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.215445-04:00",
+      "message": "d853cc8 Fix panic when previewing an empty file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.216233-04:00",
+      "message": "49f1e1c Add --comprehensive flag to ocuroot work any",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.216659-04:00",
+      "message": "7ba2c75 Don't delete deploy intent when deleting an environment",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.21704-04:00",
+      "message": "05b752a Merge pull request #75 from ocuroot/54-feature-support-dry-runs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.217406-04:00",
+      "message": "7051a35 Show output for trigger work",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.217781-04:00",
+      "message": "a949e9f Restore debug setting in minimal test",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.218148-04:00",
+      "message": "7a8494e Update TUI to track state updates",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.218511-04:00",
+      "message": "5c6b2f6 Move diff apply to workers",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.218904-04:00",
+      "message": "04eb8fc Move triggers to worker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.219297-04:00",
+      "message": "1cd43ec Add work execution to the worker type",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.219659-04:00",
+      "message": "0daa388 Handle runs using work list",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.22004-04:00",
+      "message": "fe2fcc8 Identify ops using new worker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.22043-04:00",
+      "message": "dd57ebd Handle diffs in the worker struct",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.220814-04:00",
+      "message": "7aca638 Add dryrun to ocuroot work any",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.238666-04:00",
+      "message": "main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-14T13:24:51.903824-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/untagged-916def03eea74a5a63e9",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    }
+  ]
+}
