@@ -1,0 +1,578 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-16T16:25:56.669805-04:00",
+      "message": "(✓) Complete [ updates=0 duration=18.070917ms ]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.922128-04:00",
+      "message": "Loading blog post _posts/04-why-ocuroot.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.923399-04:00",
+      "message": "Loading blog post _posts/05-integrating-ocuroot-with-github-actions.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.923643-04:00",
+      "message": "Loading blog post _posts/06-four-concepts-in-every-cicd-pipeline.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.924033-04:00",
+      "message": "Loading blog post _posts/07-enabling-pipeline-visualization.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.928984-04:00",
+      "message": "Loading blog post _posts/08-local-testing-missing-piece.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.930005-04:00",
+      "message": "Loading blog post _posts/10-breaking-out-of-yaml.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.930279-04:00",
+      "message": "Loading blog post _posts/11-ocuroot-sdk-v0-3-preview.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.957256-04:00",
+      "message": "Loading blog post _posts/12-why-would-i-need-more-environments.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.957911-04:00",
+      "message": "Loading blog post _posts/13-ocuroot-sdk-v0-3-package-definitions.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.972067-04:00",
+      "message": "Loading blog post _posts/14-ocuroot-sdk-v0-3-dependencies.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.974777-04:00",
+      "message": "Loading blog post _posts/15-ocuroot-sdk-v0-3-refs.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.978837-04:00",
+      "message": "Loading blog post _posts/16-automating-semantic-versioning.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.988984-04:00",
+      "message": "Loading blog post _posts/17-back-to-basics-e2e-tests-in-bash.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.990089-04:00",
+      "message": "Loading blog post _posts/18-debugging-ci-workflows-fake-ci-server.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.990734-04:00",
+      "message": "Loading blog post _posts/19-state-view-web-interface.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.991499-04:00",
+      "message": "Loading blog post _posts/20-try-try-and-retry-again.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:56.998364-04:00",
+      "message": "Loading blog post _posts/21-rebuild-website.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.00129-04:00",
+      "message": "Loading documentation page _docs/installation.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.002161-04:00",
+      "message": "Loading documentation page _docs/introduction.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.008079-04:00",
+      "message": "Loading documentation page _docs/quickstart.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.014258-04:00",
+      "message": "Loading documentation page _docs/usage_ai_integration.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.014568-04:00",
+      "message": "Loading documentation page _docs/usage_ci_integration.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.018379-04:00",
+      "message": "Loading documentation page _docs/usage_dependencies.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.019509-04:00",
+      "message": "Loading documentation page _docs/usage_releases.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.022312-04:00",
+      "message": "Loading documentation page _docs/usage_scheduling.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.023466-04:00",
+      "message": "Loading documentation page _docs/usage_state.md",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.113158-04:00",
+      "message": "Templates rendered to dist/",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.554021-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.554184-04:00",
+      "message": " ⛅️ wrangler 4.31.0 (update available 4.37.1)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:57.554232-04:00",
+      "message": "─────────────────────────────────────────────",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:58.836311-04:00",
+      "message": "🌀 Building list of assets...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:58.843121-04:00",
+      "message": "✨ Read 179 files from the assets directory /Users/tom/src/github.com/ocuroot/ocuroot.com/dist",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:25:58.993179-04:00",
+      "message": "🌀 Starting asset upload...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:01.318363-04:00",
+      "message": "🌀 Found 2 new or modified static assets to upload. Proceeding with upload...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:01.318807-04:00",
+      "message": "+ /docs/reference/cli/release/index.html",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:01.318918-04:00",
+      "message": "+ /docs/usage/ci-integration/index.html",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:03.215811-04:00",
+      "message": "Uploaded 1 of 2 assets",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:03.571114-04:00",
+      "message": "Uploaded 2 of 2 assets",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:03.571783-04:00",
+      "message": "✨ Success! Uploaded 2 files (95 already uploaded) (2.25 sec)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:03.573154-04:00",
+      "message": "Total Upload: 0.34 KiB / gzip: 0.24 KiB",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:05.061818-04:00",
+      "message": "Worker Startup Time: 0 ms",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:05.062685-04:00",
+      "message": "Uploaded www (6.24 sec)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:05.062771-04:00",
+      "message": "Worker Version ID: e5c45cb1-c81e-4e81-9a9c-fc627680f038",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.158601-04:00",
+      "message": "Version Preview URL: https://e5c45cb1-www.ocuroot.workers.dev",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.158852-04:00",
+      "message": "Version Preview Alias URL: https://staging-www.ocuroot.workers.dev",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.158999-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.159129-04:00",
+      "message": "To deploy this version to production traffic use the command wrangler versions deploy",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.15928-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.159386-04:00",
+      "message": "Changes to non-versioned settings (config properties 'logpush' or 'tail_consumers') take effect after your next deployment using the command wrangler versions deploy",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.159517-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T16:26:06.159654-04:00",
+      "message": "Changes to triggers (routes, custom domains, cron schedules, etc) must be applied with the command wrangler triggers deploy",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "staging"
+      },
+      "stream": 0
+    }
+  ]
+}
