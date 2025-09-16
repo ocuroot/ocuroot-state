@@ -1,0 +1,1029 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-16T12:12:09.798751-04:00",
+      "message": "Building arm64 package for version: 0.3.13",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:09.800681-04:00",
+      "message": "Building arm64 package...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:09.810827-04:00",
+      "message": "using deb packager...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.39895-04:00",
+      "message": "created package: ../.build/packages/ocuroot_0.3.13_arm64.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.406206-04:00",
+      "message": "using rpm packager...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.461178-04:00",
+      "message": "created package: ../.build/packages/ocuroot_0.3.13_arm64.rpm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.467032-04:00",
+      "message": "Package build complete!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.467105-04:00",
+      "message": "Packages created:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.468354-04:00",
+      "message": "  - /Users/tom/src/github.com/ocuroot/ocuroot/.build/packages/ocuroot_0.3.13_arm64.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.469188-04:00",
+      "message": "  - /Users/tom/src/github.com/ocuroot/ocuroot/.build/packages/ocuroot_0.3.13_arm64.rpm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.482643-04:00",
+      "message": "Testing ocuroot arm64 package for version: 0.3.13",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.482861-04:00",
+      "message": "✓ Found arm64 package",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.486148-04:00",
+      "message": "=== Testing ARM64 Package ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.751559-04:00",
+      "message": "#1 [internal] load build definition from Dockerfile.arm64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.751732-04:00",
+      "message": "#1 transferring dockerfile: 1.85kB done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.753062-04:00",
+      "message": "#1 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.754192-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.755221-04:00",
+      "message": "#2 [internal] load metadata for docker.io/library/ubuntu:latest",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.756467-04:00",
+      "message": "#2 DONE 0.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.878804-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.878937-04:00",
+      "message": "#3 [internal] load .dockerignore",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.880319-04:00",
+      "message": "#3 transferring context: 2B done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.88115-04:00",
+      "message": "#3 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.882675-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.883543-04:00",
+      "message": "#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:590e57acc18d58cd25d00254d4ca989bbfcd7d929ca6b521892c9c904c391f50",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.884371-04:00",
+      "message": "#4 resolve docker.io/library/ubuntu:latest@sha256:590e57acc18d58cd25d00254d4ca989bbfcd7d929ca6b521892c9c904c391f50 0.0s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.885226-04:00",
+      "message": "#4 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.886187-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.887071-04:00",
+      "message": "#5 [2/7] RUN apt-get update \u0026\u0026 apt-get install -y     curl     wget     file     \u0026\u0026 rm -rf /var/lib/apt/lists/*",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.887933-04:00",
+      "message": "#5 CACHED",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.888783-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:10.89021-04:00",
+      "message": "#6 [internal] load build context",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.02972-04:00",
+      "message": "#6 transferring context: 12.78MB 0.1s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.029851-04:00",
+      "message": "#6 DONE 0.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.030916-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.031709-04:00",
+      "message": "#7 [3/7] COPY .build/packages/ocuroot_0.3.13_arm64.deb /tmp/ocuroot.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.032601-04:00",
+      "message": "#7 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.033427-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.034644-04:00",
+      "message": "#8 [4/7] RUN dpkg -i /tmp/ocuroot.deb || (apt-get update \u0026\u0026 apt-get install -f -y \u0026\u0026 dpkg -i /tmp/ocuroot.deb)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.170079-04:00",
+      "message": "#8 0.102 Selecting previously unselected package ocuroot.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.170463-04:00",
+      "message": "#8 0.105 (Reading database ... 5052 files and directories currently installed.)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.172707-04:00",
+      "message": "#8 0.105 Preparing to unpack /tmp/ocuroot.deb ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.175726-04:00",
+      "message": "#8 0.107 Unpacking ocuroot (0.3.13) ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.176771-04:00",
+      "message": "#8 0.212 Setting up ocuroot (0.3.13) ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.323369-04:00",
+      "message": "#8 DONE 0.3s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.323633-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.932657-04:00",
+      "message": "#9 [5/7] RUN set -e \u0026\u0026     echo \"=== Package Installation Tests ===\" \u0026\u0026     dpkg -l | grep ocuroot \u0026\u0026     echo \"✓ Package is installed\" \u0026\u0026         echo \"=== Binary Tests ===\" \u0026\u0026     ls -la /usr/bin/ocuroot \u0026\u0026     file /usr/bin/ocuroot \u0026\u0026     echo \"✓ Binary exists and is executable\" \u0026\u0026         echo \"=== Architecture Tests ===\" \u0026\u0026     file /usr/bin/ocuroot | grep \"aarch64\" \u0026\u0026     echo \"✓ Binary is correct architecture (aarch64)\" \u0026\u0026         echo \"=== Functionality Tests ===\" \u0026\u0026     ocuroot --help \u003e /dev/null \u0026\u0026     echo \"✓ Help command works\" \u0026\u0026     ocuroot version \u003e /dev/null \u0026\u0026     echo \"✓ Version command works\" \u0026\u0026         echo \"=== Package Metadata Tests ===\" \u0026\u0026     PACKAGE_VERSION=$(dpkg -s ocuroot | grep '^Version:' | cut -d' ' -f2) \u0026\u0026     echo \"Package version: $PACKAGE_VERSION\" \u0026\u0026     EXPECTED_PACKAGE_VERSION=$(echo \"0.3.13\" | cut -d'-' -f1) \u0026\u0026     echo \"Expected package version: $EXPECTED_PACKAGE_VERSION\" \u0026\u0026     [ \"$PACKAGE_VERSION\" = \"$EXPECTED_PACKAGE_VERSION\" ] \u0026\u0026     echo \"✓ Package version matches expected version\" \u0026\u0026         echo \"=== All tests passed! ===\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.934497-04:00",
+      "message": "#9 0.117 === Package Installation Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.935311-04:00",
+      "message": "#9 0.120 ii  ocuroot                   0.3.13                            arm64        Ocuroot is the Ocuroot CLI tool.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.936787-04:00",
+      "message": "#9 0.121 ✓ Package is installed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.937596-04:00",
+      "message": "#9 0.121 === Binary Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.938359-04:00",
+      "message": "#9 0.121 -rwxr-xr-x 1 root root 25760040 Sep 16 16:12 /usr/bin/ocuroot",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.939213-04:00",
+      "message": "#9 0.127 /usr/bin/ocuroot: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=0a44bcbd905652d5b0e33a800e70082a9033d390, with debug_info, not stripped",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.939977-04:00",
+      "message": "#9 0.127 ✓ Binary exists and is executable",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.940726-04:00",
+      "message": "#9 0.127 === Architecture Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.941551-04:00",
+      "message": "#9 0.136 /usr/bin/ocuroot: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=0a44bcbd905652d5b0e33a800e70082a9033d390, with debug_info, not stripped",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.942331-04:00",
+      "message": "#9 0.136 ✓ Binary is correct architecture (aarch64)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.94362-04:00",
+      "message": "#9 0.136 === Functionality Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.944475-04:00",
+      "message": "#9 0.142 ✓ Help command works",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.945266-04:00",
+      "message": "#9 0.146 Logs at: /root/.ocuroot/logs/1758039131446540136-version.log",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.946169-04:00",
+      "message": "#9 0.146 ✓ Version command works",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.947058-04:00",
+      "message": "#9 0.146 === Package Metadata Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.947885-04:00",
+      "message": "#9 0.148 Package version: 0.3.13",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.94859-04:00",
+      "message": "#9 0.149 Expected package version: 0.3.13",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.949383-04:00",
+      "message": "#9 0.149 ✓ Package version matches expected version",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.950126-04:00",
+      "message": "#9 0.149 === All tests passed! ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.950886-04:00",
+      "message": "#9 DONE 0.2s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.951638-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.952975-04:00",
+      "message": "#10 [6/7] RUN rm /tmp/ocuroot.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.95372-04:00",
+      "message": "#10 DONE 0.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.954525-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.955349-04:00",
+      "message": "#11 [7/7] WORKDIR /root",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.956183-04:00",
+      "message": "#11 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.956918-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.957628-04:00",
+      "message": "#12 exporting to image",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:11.958476-04:00",
+      "message": "#12 exporting layers",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.378024-04:00",
+      "message": "#12 exporting layers 0.8s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.378306-04:00",
+      "message": "#12 exporting manifest sha256:858fac5d7bdc561a4da3bec4cb9b9308a6e8cadb894c3bcdddf6e70646801538 done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.38066-04:00",
+      "message": "#12 exporting config sha256:cbad21098d35437c03e27b238dcfa7b7b544dfab790db227712152e7793218aa done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.382332-04:00",
+      "message": "#12 naming to docker.io/library/ocuroot-test-arm64:latest done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.383165-04:00",
+      "message": "#12 unpacking to docker.io/library/ocuroot-test-arm64:latest",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.512423-04:00",
+      "message": "#12 unpacking to docker.io/library/ocuroot-test-arm64:latest 0.2s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.550943-04:00",
+      "message": "#12 DONE 1.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.553484-04:00",
+      "message": "✓ arm64 package test passed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.553587-04:00",
+      "message": "🎉 arm64 package test passed!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.554588-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.555508-04:00",
+      "message": "Available test image:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.556313-04:00",
+      "message": "  - ocuroot-test-arm64 (for arm64 testing)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.557197-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.558038-04:00",
+      "message": "To run interactive test:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:12.558937-04:00",
+      "message": "  docker run -it --rm ocuroot-test-arm64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:22.172627-04:00",
+      "message": "a ocuroot",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:12:22.949248-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    }
+  ]
+}
