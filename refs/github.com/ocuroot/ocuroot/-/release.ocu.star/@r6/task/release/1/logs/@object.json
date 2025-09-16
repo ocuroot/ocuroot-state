@@ -1,0 +1,457 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-16T11:34:47.51464-04:00",
+      "message": "## Commit summaries",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.515144-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.516075-04:00",
+      "message": "d402549 Update release file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.517659-04:00",
+      "message": "42c043a Update create/delete indicators for custom/environment state",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.518274-04:00",
+      "message": "c7b4090 Add 'ocuroot release lint' command",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.518949-04:00",
+      "message": "7feb5e2 Show release results in the release view of the state UI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.519659-04:00",
+      "message": "0a24fc3 Add new test to Makefile",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.521795-04:00",
+      "message": "4192093 Handle deletion of custom state",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.522329-04:00",
+      "message": "74bac43 Show delete operations as '-' rather than '+' in the TUI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.522831-04:00",
+      "message": "3547e22 Uncomment skipped tests",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.523479-04:00",
+      "message": "9ee9100 Provide instructions for outstanding work for other commits.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.523943-04:00",
+      "message": "d375852 Sort hierarchies when running work to make ordering deterministic",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.524412-04:00",
+      "message": "02b8e6c Fix issues with releases",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.524866-04:00",
+      "message": "d3397e9 Point readme at the documentation for installation instructions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.525276-04:00",
+      "message": "0e2a3cc Build and upload packages as part of the release process.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.525751-04:00",
+      "message": "a48728f Add scripts to build and test rpm and deb packages",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.526197-04:00",
+      "message": "94efb38 Show the first user-defined position as the source of Starlark errors",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.526619-04:00",
+      "message": "a517023 Merge pull request #79 from ocuroot/65-bug-with-argskwargs-in-taskdeploy-functions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.527052-04:00",
+      "message": "44ff33b Fix issue with args \u0026 kwargs in tasks/deploys",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.527484-04:00",
+      "message": "c53f7a4 Ensure the REPL runs with the right working directory",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.527904-04:00",
+      "message": "4fd1615 Improve error message when repo.ocu.star is missing",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.528356-04:00",
+      "message": "4819f50 Fix handling of phaseless tasks",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.528774-04:00",
+      "message": "4c4c739 Fix panic loading a shared store",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.529145-04:00",
+      "message": "d853cc8 Fix panic when previewing an empty file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.529481-04:00",
+      "message": "49f1e1c Add --comprehensive flag to ocuroot work any",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.529821-04:00",
+      "message": "7ba2c75 Don't delete deploy intent when deleting an environment",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.53016-04:00",
+      "message": "05b752a Merge pull request #75 from ocuroot/54-feature-support-dry-runs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.530496-04:00",
+      "message": "7051a35 Show output for trigger work",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.530842-04:00",
+      "message": "a949e9f Restore debug setting in minimal test",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.531289-04:00",
+      "message": "7a8494e Update TUI to track state updates",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.531675-04:00",
+      "message": "5c6b2f6 Move diff apply to workers",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.532059-04:00",
+      "message": "04eb8fc Move triggers to worker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.532448-04:00",
+      "message": "1cd43ec Add work execution to the worker type",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.532843-04:00",
+      "message": "0daa388 Handle runs using work list",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.533252-04:00",
+      "message": "fe2fcc8 Identify ops using new worker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.533636-04:00",
+      "message": "dd57ebd Handle diffs in the worker struct",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.533984-04:00",
+      "message": "7aca638 Add dryrun to ocuroot work any",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.557201-04:00",
+      "message": "d402549adec48e081067352b4fffd9ca5d1488c4",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.977833-04:00",
+      "message": "HTTP 422: Validation Failed (https://api.github.com/repos/ocuroot/ocuroot/releases)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.978302-04:00",
+      "message": "Release.tag_name already exists",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:34:47.979272-04:00",
+      "message": "Release.target_commitish is invalid",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    }
+  ]
+}
