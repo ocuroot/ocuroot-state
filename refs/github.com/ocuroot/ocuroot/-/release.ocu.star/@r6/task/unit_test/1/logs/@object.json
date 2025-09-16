@@ -1,0 +1,270 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-16T11:27:54.922792-04:00",
+      "message": "Running unit tests",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "9",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.225189-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.22571-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/about\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.236125-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.475443-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/commands\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.475803-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/client/local\t(cached)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.475908-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/preview\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.475997-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/release\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.476083-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/state\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.47614-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/tui\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:55.476199-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/client/tui/tuiwork\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207472-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/client/work\t0.275s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207586-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/cmd/ocuroot\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207654-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/lib/release\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.20772-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/refs\t(cached)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207799-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/refs/refstore\t(cached)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207842-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/sdk\t(cached)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.207891-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/sdk/starlarkerrors\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.20795-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/store/models\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.208003-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/ui/components\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.208049-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/ui/components/keyvalue\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.208089-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/ui/components/logs\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.208131-04:00",
+      "message": "ok  \tgithub.com/ocuroot/ocuroot/ui/components/pipeline\t(cached)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T11:27:56.208165-04:00",
+      "message": "?   \tgithub.com/ocuroot/ocuroot/ui/components/watch\t[no test files]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "unit_test"
+      },
+      "stream": 0
+    }
+  ]
+}
