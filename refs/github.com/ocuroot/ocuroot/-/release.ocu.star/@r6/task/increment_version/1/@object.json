@@ -1,0 +1,30 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r6",
+    "functions": [
+      {
+        "fn": {
+          "name": "increment_version",
+          "pos": "release.ocu.star:25:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r6/task/endtoend/*/status/complete"
+        ],
+        "inputs": {
+          "prev_prerelease": {
+            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease",
+            "default": "0.3.11-1"
+          },
+          "prev_version": {
+            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/release#output/version",
+            "default": "0.3.10"
+          }
+        }
+      }
+    ],
+    "output": null
+  }
+}
