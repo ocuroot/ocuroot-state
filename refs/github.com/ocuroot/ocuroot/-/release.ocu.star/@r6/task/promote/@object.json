@@ -1,0 +1,20 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/promote"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r6/task/promote/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r6",
+    "input": {
+      "approval": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r6/custom/promote",
+        "value": "1",
+        "doc": "Manually promote this release by running \n        ocuroot state set \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r6/custom/promote\" 1\n        ocuroot state apply \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r6/custom/promote\""
+      }
+    },
+    "output": {}
+  }
+}
