@@ -1,0 +1,237 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-16T12:30:49.667704-04:00",
+      "message": "## Summary\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.668159-04:00",
+      "message": "\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.668959-04:00",
+      "message": "This release improves the TUI output,  avoiding \"flicker\" when working with multiple releases and clarifying state creation/deletion.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.670923-04:00",
+      "message": "\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.671427-04:00",
+      "message": "## Commit summaries\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.671889-04:00",
+      "message": "\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.672331-04:00",
+      "message": "5d5946e Add check for untracked tags\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.672836-04:00",
+      "message": "d402549 Update release file\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.673651-04:00",
+      "message": "42c043a Update create/delete indicators for custom/environment state\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.67406-04:00",
+      "message": "c7b4090 Add 'ocuroot release lint' command\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.674504-04:00",
+      "message": "7feb5e2 Show release results in the release view of the state UI\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.67492-04:00",
+      "message": "0a24fc3 Add new test to Makefile\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.675319-04:00",
+      "message": "4192093 Handle deletion of custom state\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.67571-04:00",
+      "message": "74bac43 Show delete operations as '-' rather than '+' in the TUI\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.676104-04:00",
+      "message": "3547e22 Uncomment skipped tests\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.676472-04:00",
+      "message": "9ee9100 Provide instructions for outstanding work for other commits.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.676814-04:00",
+      "message": "d375852 Sort hierarchies when running work to make ordering deterministic\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.677161-04:00",
+      "message": "02b8e6c Fix issues with releases\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.677502-04:00",
+      "message": "d3397e9 Point readme at the documentation for installation instructions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:49.70364-04:00",
+      "message": "5d5946e603a493419c6c2cc4772e7a7225b6c6b2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-16T12:30:50.390586-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/v0.3.13",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    }
+  ]
+}

@@ -2,7 +2,8 @@
   "kind": "ref",
   "body_type": "release.ReleaseInfo",
   "links": [
-    "github.com/ocuroot/ocuroot/-/release.ocu.star/@0.3.13-1"
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@0.3.13-1",
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@0.3.13"
   ],
   "body": {
     "commit": "5d5946e603a493419c6c2cc4772e7a7225b6c6b2",
