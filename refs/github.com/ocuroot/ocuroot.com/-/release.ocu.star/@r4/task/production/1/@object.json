@@ -1,0 +1,28 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r4",
+    "functions": [
+      {
+        "fn": {
+          "name": "production",
+          "pos": "release.ocu.star:47:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r4/task/staging/*/status/complete"
+        ],
+        "inputs": {
+          "approval": {
+            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r4/custom/approval"
+          },
+          "version_id": {
+            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r4/task/staging#output/version_id"
+          }
+        }
+      }
+    ],
+    "output": null
+  }
+}
