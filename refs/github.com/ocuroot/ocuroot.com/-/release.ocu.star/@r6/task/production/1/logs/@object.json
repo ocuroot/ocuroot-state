@@ -1,0 +1,446 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-17T18:05:18.085533-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.085677-04:00",
+      "message": " ⛅️ wrangler 4.31.0 (update available 4.37.1)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.085774-04:00",
+      "message": "─────────────────────────────────────────────",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.090168-04:00",
+      "message": "╭ Deploy Worker Versions by splitting traffic between multiple versions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.090269-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.090329-04:00",
+      "message": "├ Fetching latest deployment",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.495864-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.889912-04:00",
+      "message": "├ Your current deployment has 1 version(s):",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890244-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890404-04:00",
+      "message": "│ (100%) 488ad524-3698-4cb1-9a8d-685d9ebfc1dc",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890517-04:00",
+      "message": "│       Created:  2025-09-17T18:12:52.933784Z",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.89062-04:00",
+      "message": "│           Tag:  a505b45",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890759-04:00",
+      "message": "│       Message:  -",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890884-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:18.890993-04:00",
+      "message": "├ Fetching deployable versions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.478628-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.47909-04:00",
+      "message": "├ Which version(s) do you want to deploy?",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479213-04:00",
+      "message": "├ 1 Worker Version(s) selected",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479272-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479313-04:00",
+      "message": "├     Worker Version 1:  e60c0f88-49a2-463e-be1c-b420af45419b",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479349-04:00",
+      "message": "│              Created:  2025-09-17T22:03:49.246537Z",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479443-04:00",
+      "message": "│                  Tag:  d037743",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479482-04:00",
+      "message": "│              Message:  -",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479522-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.479689-04:00",
+      "message": "├ What percentage of traffic should Worker Version 1 receive?",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.48009-04:00",
+      "message": "├ 100% of traffic",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.480145-04:00",
+      "message": "├",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.480179-04:00",
+      "message": "├ Add a deployment message (skipped)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.48022-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:19.48026-04:00",
+      "message": "├ Deploying 1 version(s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:20.298735-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:20.299021-04:00",
+      "message": "├ Syncing non-versioned settings",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.341859-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342166-04:00",
+      "message": "│ Synced non-versioned settings:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.34222-04:00",
+      "message": "│            logpush:  false",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342263-04:00",
+      "message": "│      observability:  enabled:             true",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342318-04:00",
+      "message": "│                      head_sampling_rate:  1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342355-04:00",
+      "message": "│     tail_consumers:  \u003cskipped\u003e",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342453-04:00",
+      "message": "│",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:05:21.342486-04:00",
+      "message": "╰  SUCCESS  Deployed www version e60c0f88-49a2-463e-be1c-b420af45419b at 100% (1.86 sec)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "production"
+      },
+      "stream": 0
+    }
+  ]
+}
