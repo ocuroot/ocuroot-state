@@ -1,0 +1,31 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r9",
+    "functions": [
+      {
+        "fn": {
+          "name": "build",
+          "pos": "release.ocu.star:67:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r9/task/increment_version/*/status/complete"
+        ],
+        "inputs": {
+          "arch": {
+            "value": "arm64"
+          },
+          "os": {
+            "value": "linux"
+          },
+          "version": {
+            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r9/task/increment_version#output/prerelease"
+          }
+        }
+      }
+    ],
+    "output": null
+  }
+}
