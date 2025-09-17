@@ -1,0 +1,105 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-17T14:24:30.978579-04:00",
+      "message": "88de707 Make it clear when you need to run ocuroot work any again.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.978812-04:00",
+      "message": "d273a23 Clean up some TODOs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.979928-04:00",
+      "message": "5cccb83 Fix issue with ref deletion",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.980418-04:00",
+      "message": "16e58b3 Remove the doc param from inputs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.980873-04:00",
+      "message": "204c07b Show .ocu.star file execution in TUI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.981297-04:00",
+      "message": "4d8e371 Update README to replace call with task.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.981692-04:00",
+      "message": "9fc52e2 Fix issue with checksums file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:30.996539-04:00",
+      "message": "main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T14:24:32.108744-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/untagged-a2af733f4fa068e9e13b",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    }
+  ]
+}
