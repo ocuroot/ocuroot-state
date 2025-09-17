@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r11",
@@ -16,15 +16,19 @@
         "inputs": {
           "prev_prerelease": {
             "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease",
-            "default": "0.3.11-1"
+            "default": "0.3.11-1",
+            "value": "0.3.14-3"
           },
           "prev_version": {
             "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/release#output/version",
-            "default": "0.3.10"
+            "default": "0.3.10",
+            "value": "0.3.13"
           }
         }
       }
     ],
-    "output": null
+    "output": {
+      "prerelease": "0.3.14-4"
+    }
   }
 }
