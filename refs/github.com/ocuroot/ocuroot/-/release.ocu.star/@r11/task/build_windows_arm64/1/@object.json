@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r11",
@@ -21,11 +21,12 @@
             "value": "windows"
           },
           "version": {
-            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r11/task/increment_version#output/prerelease"
+            "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r11/task/increment_version#output/prerelease",
+            "value": "0.3.14-4"
           }
         }
       }
     ],
-    "output": null
+    "output": {}
   }
 }
