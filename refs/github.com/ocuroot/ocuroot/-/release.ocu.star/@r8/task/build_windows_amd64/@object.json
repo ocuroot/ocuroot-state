@@ -1,0 +1,27 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/build_windows_amd64"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r8/task/build_windows_amd64/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r8",
+    "input": {
+      "arch": {
+        "value": "amd64"
+      },
+      "os": {
+        "value": "windows"
+      },
+      "version": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r8/task/increment_version#output/prerelease",
+        "value": "0.3.14-1"
+      }
+    },
+    "output": {
+      "download_url": "https://www.github.com/ocuroot/ocuroot/releases/download/v0.3.14-1/ocuroot-windows-amd64.tar.gz"
+    }
+  }
+}
