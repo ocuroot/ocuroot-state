@@ -1,0 +1,62 @@
+{
+  "kind": "ref",
+  "body_type": "release.ReleaseInfo",
+  "body": {
+    "commit": "d037743a817ba2c4679022ef83a3e8d5102cacc0",
+    "package": {
+      "functions": {
+        "production/release.ocu.star:47:1": {
+          "function": {
+            "name": "production",
+            "pos": "release.ocu.star:47:1"
+          }
+        },
+        "staging/release.ocu.star:3:1": {
+          "function": {
+            "name": "staging",
+            "pos": "release.ocu.star:3:1"
+          }
+        }
+      },
+      "phases": [
+        {
+          "name": "staging",
+          "tasks": [
+            {
+              "task": {
+                "name": "staging",
+                "inputs": {},
+                "fn": {
+                  "name": "staging",
+                  "pos": "release.ocu.star:3:1"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "name": "production",
+          "tasks": [
+            {
+              "task": {
+                "name": "production",
+                "inputs": {
+                  "approval": {
+                    "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r6/custom/approval"
+                  },
+                  "version_id": {
+                    "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r6/task/staging#output/version_id"
+                  }
+                },
+                "fn": {
+                  "name": "production",
+                  "pos": "release.ocu.star:47:1"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
