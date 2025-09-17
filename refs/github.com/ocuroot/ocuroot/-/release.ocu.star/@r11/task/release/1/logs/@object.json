@@ -1,0 +1,149 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-17T18:38:16.86611-04:00",
+      "message": "## Commit summaries",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.866466-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.867109-04:00",
+      "message": "35630d4 Update examples for v0.3.14",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.867502-04:00",
+      "message": "c7e42e1 Remove download URL from state",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.867833-04:00",
+      "message": "88de707 Make it clear when you need to run ocuroot work any again.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.868158-04:00",
+      "message": "d273a23 Clean up some TODOs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.8684-04:00",
+      "message": "5cccb83 Fix issue with ref deletion",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.868638-04:00",
+      "message": "16e58b3 Remove the doc param from inputs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.868906-04:00",
+      "message": "204c07b Show .ocu.star file execution in TUI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.86913-04:00",
+      "message": "4d8e371 Update README to replace call with task.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.869855-04:00",
+      "message": "9fc52e2 Fix issue with checksums file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:16.886309-04:00",
+      "message": "35630d492d6ff445fccc3bf16d8dcce1d62f7ba4",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-17T18:38:17.709196-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/v0.3.14",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    }
+  ]
+}
