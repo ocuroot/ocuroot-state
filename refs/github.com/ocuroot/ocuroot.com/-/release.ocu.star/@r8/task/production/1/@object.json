@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r8",
@@ -15,10 +15,12 @@
         ],
         "inputs": {
           "approval": {
-            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r8/custom/approval"
+            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r8/custom/approval",
+            "value": "1"
           },
           "version_id": {
-            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r8/task/staging#output/version_id"
+            "ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r8/task/staging#output/version_id",
+            "value": "a9a2d879-e51b-4e46-b0d6-0f40e765d103"
           }
         }
       }
