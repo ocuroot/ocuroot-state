@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r2",
@@ -21,11 +21,11 @@
         "inputs": {
           "approval": {
             "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r2/custom/promote",
-            "doc": "Manually promote this release by running \n        ocuroot state set \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r2/custom/promote\" 1\n        ocuroot state apply \"github.com/ocuroot/ocuroot/-/release.ocu.star/+r2/custom/promote\""
+            "value": "1"
           }
         }
       }
     ],
-    "output": null
+    "output": {}
   }
 }
