@@ -1,0 +1,171 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-22T21:25:02.584912-04:00",
+      "message": "## Commit summaries",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585496-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585566-04:00",
+      "message": "35630d4 Update examples for v0.3.14",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585631-04:00",
+      "message": "c7e42e1 Remove download URL from state",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585687-04:00",
+      "message": "88de707 Make it clear when you need to run ocuroot work any again.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585865-04:00",
+      "message": "d273a23 Clean up some TODOs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.585953-04:00",
+      "message": "5cccb83 Fix issue with ref deletion",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.586028-04:00",
+      "message": "16e58b3 Remove the doc param from inputs",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.586129-04:00",
+      "message": "204c07b Show .ocu.star file execution in TUI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.586253-04:00",
+      "message": "4d8e371 Update README to replace call with task.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.586374-04:00",
+      "message": "9fc52e2 Fix issue with checksums file",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:02.611804-04:00",
+      "message": "78-allow-running-work-for-different-commits",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:03.001198-04:00",
+      "message": "HTTP 422: Validation Failed (https://api.github.com/repos/ocuroot/ocuroot/releases)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:03.002339-04:00",
+      "message": "Release.tag_name already exists",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-22T21:25:03.002451-04:00",
+      "message": "Release.target_commitish is invalid",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "release"
+      },
+      "stream": 0
+    }
+  ]
+}
