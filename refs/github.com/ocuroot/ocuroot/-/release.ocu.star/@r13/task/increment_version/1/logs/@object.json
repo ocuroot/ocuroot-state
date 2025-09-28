@@ -1,0 +1,369 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-09-28T12:35:26.582705-04:00",
+      "message": "aa2796d Fix issues introduced by cascade changes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.583279-04:00",
+      "message": "51270b1 Create prerelease versions rather than drafts",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.584174-04:00",
+      "message": "7315503 Merge pull request #98 from ocuroot/78-allow-running-work-for-different-commits",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.584594-04:00",
+      "message": "bd8282a Merge branch 'main' into 78-allow-running-work-for-different-commits",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.585029-04:00",
+      "message": "474d27e Use worker for all ref operations",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.585442-04:00",
+      "message": "3ce548a Support cascade operations within a storage repo",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.585828-04:00",
+      "message": "9d776d4 Cascade work in other repos",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.586298-04:00",
+      "message": "69a47bd Support cascade for applying intent",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.586703-04:00",
+      "message": "a07e4b8 Support cascades from releases",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.58713-04:00",
+      "message": "4fad1bc Merge pull request #92 from ocuroot/fix/sdk-version-alignment",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.58754-04:00",
+      "message": "d5f57ee Further simplify version resolution by always using semver library",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.587926-04:00",
+      "message": "87cd478 Simplify semver constraint handling by removing explicit .x handling",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.588348-04:00",
+      "message": "ca78e79 Add SDK version tests to e2e test suite",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.58874-04:00",
+      "message": "a4cab89 Fix SDK version test script directory handling",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.589137-04:00",
+      "message": "9763395 Implement semver constraint support for SDK versions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.58954-04:00",
+      "message": "ee2228e Check available space before creating worktree",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.589953-04:00",
+      "message": "98e0d91 Initial implementation of cascade",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.590588-04:00",
+      "message": "a0b7581 Store remotes with repo definitions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.590974-04:00",
+      "message": "5360697 Set git author/committer for state operations",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.591369-04:00",
+      "message": "8ee53cc Merge pull request #96 from ocuroot/fix-release-ordering-natural-sort",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.59175-04:00",
+      "message": "6edb5ec Apply natural sorting to all ref types in state UI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.592152-04:00",
+      "message": "2e53340 Fix release ordering in state UI with natural sorting",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.592527-04:00",
+      "message": "c28bbbc Tweak formatting",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.59291-04:00",
+      "message": "c27c034 Fix rendering of empty outputs in state UI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.593299-04:00",
+      "message": "4adac7c Merge pull request #95 from ocuroot/fix-empty-outputs-ui",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.593694-04:00",
+      "message": "c41210a Merge pull request #94 from ocuroot/fix/e2e-test-path-independence",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.59407-04:00",
+      "message": "46f382f Fix empty outputs display in web UI",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.594439-04:00",
+      "message": "8081d91 Fix e2e tests to not rely on PATH configuration",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.59482-04:00",
+      "message": "7d17292 Add dedicated SDK version tests and revert versioning changes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.595186-04:00",
+      "message": "38e6e97 Update tests to demonstrate SDK version alignment",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.595555-04:00",
+      "message": "e7a0cf9 Fix SDK version alignment with binary versions",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:26.609442-04:00",
+      "message": "main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-09-28T12:35:27.533635-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/v0.3.15-2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    }
+  ]
+}
