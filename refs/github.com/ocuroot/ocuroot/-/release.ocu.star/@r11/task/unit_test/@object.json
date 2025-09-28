@@ -1,9 +1,6 @@
 {
   "kind": "ref",
   "body_type": "models.Task",
-  "links": [
-    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/unit_test"
-  ],
   "body": {
     "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r11/task/unit_test/1",
     "type": "task",
