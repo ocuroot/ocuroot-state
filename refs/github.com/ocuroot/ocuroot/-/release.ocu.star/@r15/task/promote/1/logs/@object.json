@@ -1,0 +1,17 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-10-01T13:37:13.00523-04:00",
+      "message": "Promoting",
+      "attributes": {
+        "col": "10",
+        "filename": "release.ocu.star",
+        "line": "125",
+        "thread": "promote"
+      },
+      "stream": 0
+    }
+  ]
+}
