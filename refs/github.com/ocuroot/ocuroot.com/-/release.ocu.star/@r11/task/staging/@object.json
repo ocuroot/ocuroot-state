@@ -1,18 +1,14 @@
 {
   "kind": "ref",
-  "body_type": "*models.Run",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@/task/staging"
+  ],
   "body": {
+    "run_ref": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r11/task/staging/1",
     "type": "task",
     "release": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r11",
-    "functions": [
-      {
-        "fn": {
-          "name": "staging",
-          "pos": "release.ocu.star:3:1"
-        },
-        "inputs": {}
-      }
-    ],
+    "input": {},
     "output": {
       "tag": "0a69f08",
       "version_id": "add20437-c53c-4882-9c1a-7194265287c2"
