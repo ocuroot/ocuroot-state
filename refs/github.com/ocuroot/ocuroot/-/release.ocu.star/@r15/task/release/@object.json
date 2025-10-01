@@ -1,0 +1,21 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/release"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r15/task/release/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r15",
+    "input": {
+      "prerelease": {
+        "ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/increment_version#output/prerelease",
+        "value": "0.3.16-1"
+      }
+    },
+    "output": {
+      "version": "0.3.16"
+    }
+  }
+}
