@@ -1,0 +1,77 @@
+{
+  "kind": "ref",
+  "body_type": "models.RepoConfig",
+  "create_stack": [
+    "goroutine 1 [running]:",
+    "runtime/debug.Stack()",
+    "/opt/homebrew/Cellar/go/1.25.1/libexec/src/runtime/debug/stack.go:26 +0x64",
+    "github.com/ocuroot/ocuroot/refs/refstore.stackAsSlice()",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:244 +0x1c",
+    "github.com/ocuroot/ocuroot/refs/refstore.recordStacks({0x140004bc5a0, 0xe3}, 0x14000215158)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:224 +0x80",
+    "github.com/ocuroot/ocuroot/refs/refstore.(*FSStateStore).Set(0x14000406050, {0x1011ef400?, 0x10189b000?}, {0x14000496240?, 0x14000215368?}, {0x10111fd80, 0x14000488630})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:202 +0x26c",
+    "github.com/ocuroot/ocuroot/refs/refstore.(*GitRefStore).Set(0x14000436090, {0x1011ef400, 0x10189b000}, {0x14000496240, 0x54}, {0x10111fd80, 0x14000488630})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/gitrefstore.go:199 +0x60",
+    "github.com/ocuroot/ocuroot/client/work.saveRepoConfig({0x1011ef400, 0x10189b000}, {{0x1400048a000, 0x28}, {0x140000380a4, 0x29}, {{0x14000356120, 0x1a}, {0x1400003afc0, 0x25}, ...}, ...}, ...)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/tracker.go:353 +0x404",
+    "github.com/ocuroot/ocuroot/client/work.(*Worker).InitTrackerFromSourceRepo(0x140002ae400, {0x1011ef400, 0x10189b000}, {{0x14000356120, 0x1a}, {0x1400003afc0, 0x25}, 0x0, 0x1, {0x16f72aa32, ...}, ...}, ...)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/tracker.go:176 +0x848",
+    "github.com/ocuroot/ocuroot/client/work.NewWorker({0x1011ef400, 0x10189b000}, {{0x0, 0x0}, {0x16f72aa32, 0xa}, 0x0, 0x1, {0x16f72aa32, 0x0}, ...})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/worker.go:64 +0x1fc",
+    "github.com/ocuroot/ocuroot/client/commands.init.func9(0x1018563a0, {0x140002a0500?, 0x4?, 0x100e6e535?})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/commands/state.go:40 +0x168",
+    "github.com/spf13/cobra.(*Command).execute(0x1018563a0, {0x140002a04d0, 0x1, 0x1})",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1015 +0x7d4",
+    "github.com/spf13/cobra.(*Command).ExecuteC(0x101855e20)",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1148 +0x350",
+    "github.com/spf13/cobra.(*Command).Execute(...)",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1071",
+    "main.main()",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/cmd/ocuroot/main.go:10 +0x24",
+    ""
+  ],
+  "set_stack": [
+    "goroutine 1 [running]:",
+    "runtime/debug.Stack()",
+    "/opt/homebrew/Cellar/go/1.25.1/libexec/src/runtime/debug/stack.go:26 +0x64",
+    "github.com/ocuroot/ocuroot/refs/refstore.stackAsSlice()",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:244 +0x1c",
+    "github.com/ocuroot/ocuroot/refs/refstore.recordStacks({0x140004bc5a0, 0xe3}, 0x14000215158)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:221 +0x28",
+    "github.com/ocuroot/ocuroot/refs/refstore.(*FSStateStore).Set(0x14000406050, {0x1011ef400?, 0x10189b000?}, {0x14000496240?, 0x14000215368?}, {0x10111fd80, 0x14000488630})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/fsrefstore.go:202 +0x26c",
+    "github.com/ocuroot/ocuroot/refs/refstore.(*GitRefStore).Set(0x14000436090, {0x1011ef400, 0x10189b000}, {0x14000496240, 0x54}, {0x10111fd80, 0x14000488630})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/refs/refstore/gitrefstore.go:199 +0x60",
+    "github.com/ocuroot/ocuroot/client/work.saveRepoConfig({0x1011ef400, 0x10189b000}, {{0x1400048a000, 0x28}, {0x140000380a4, 0x29}, {{0x14000356120, 0x1a}, {0x1400003afc0, 0x25}, ...}, ...}, ...)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/tracker.go:353 +0x404",
+    "github.com/ocuroot/ocuroot/client/work.(*Worker).InitTrackerFromSourceRepo(0x140002ae400, {0x1011ef400, 0x10189b000}, {{0x14000356120, 0x1a}, {0x1400003afc0, 0x25}, 0x0, 0x1, {0x16f72aa32, ...}, ...}, ...)",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/tracker.go:176 +0x848",
+    "github.com/ocuroot/ocuroot/client/work.NewWorker({0x1011ef400, 0x10189b000}, {{0x0, 0x0}, {0x16f72aa32, 0xa}, 0x0, 0x1, {0x16f72aa32, 0x0}, ...})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/work/worker.go:64 +0x1fc",
+    "github.com/ocuroot/ocuroot/client/commands.init.func9(0x1018563a0, {0x140002a0500?, 0x4?, 0x100e6e535?})",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/client/commands/state.go:40 +0x168",
+    "github.com/spf13/cobra.(*Command).execute(0x1018563a0, {0x140002a04d0, 0x1, 0x1})",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1015 +0x7d4",
+    "github.com/spf13/cobra.(*Command).ExecuteC(0x101855e20)",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1148 +0x350",
+    "github.com/spf13/cobra.(*Command).Execute(...)",
+    "/Users/tom/go/pkg/mod/github.com/spf13/cobra@v1.9.1/command.go:1071",
+    "main.main()",
+    "/Users/tom/src/github.com/ocuroot/ocuroot/cmd/ocuroot/main.go:10 +0x24",
+    ""
+  ],
+  "links": [
+    "github.com/ocuroot/ocuroot/-/repo.ocu.star/@"
+  ],
+  "body": {
+    "Remotes": [
+      {
+        "Name": "origin",
+        "URL": "git@github.com:ocuroot/ocuroot.git",
+        "PushURL": "git@github.com:ocuroot/ocuroot.git"
+      }
+    ],
+    "source": "b2N1cm9vdCgiMC4zLjAiKQoKcmVwb19hbGlhcygiZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3QiKQoKc3RvcmUuc2V0KAogICAgc3RvcmUuZ2l0KCJzc2g6Ly9naXRAZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3Qtc3RhdGUuZ2l0IiksCiAgICBpbnRlbnQ9c3RvcmUuZ2l0KCJzc2g6Ly9naXRAZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3QtaW50ZW50LmdpdCIpLAop"
+  }
+}
