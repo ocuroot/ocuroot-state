@@ -1,0 +1,17 @@
+{
+  "kind": "ref",
+  "body_type": "models.RepoConfig",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/repo.ocu.star/@"
+  ],
+  "body": {
+    "Remotes": [
+      {
+        "Name": "origin",
+        "URL": "git@github.com:ocuroot/ocuroot.git",
+        "PushURL": "git@github.com:ocuroot/ocuroot.git"
+      }
+    ],
+    "source": "b2N1cm9vdCgiMC4zLjAiKQoKcmVwb19hbGlhcygiZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3QiKQoKc3RvcmUuc2V0KAogICAgc3RvcmUuZ2l0KCJzc2g6Ly9naXRAZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3Qtc3RhdGUuZ2l0IiksCiAgICBpbnRlbnQ9c3RvcmUuZ2l0KCJzc2g6Ly9naXRAZ2l0aHViLmNvbS9vY3Vyb290L29jdXJvb3QtaW50ZW50LmdpdCIpLAop"
+  }
+}
