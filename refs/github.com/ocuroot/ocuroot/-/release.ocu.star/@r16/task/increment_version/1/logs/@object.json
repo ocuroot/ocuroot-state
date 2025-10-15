@@ -1,0 +1,303 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-10-15T15:11:41.759536-04:00",
+      "message": "Found untracked tag for 0.3.16, incrementing.",
+      "attributes": {
+        "col": "14",
+        "filename": "./versions.ocu.star",
+        "line": "36",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.787814-04:00",
+      "message": "d19afca Add `ocuroot push` command",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.787985-04:00",
+      "message": "548c149 Support pushes from the intent repo",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.78856-04:00",
+      "message": "0b96d7c Tag stores for state or intent",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.789045-04:00",
+      "message": "7bb64d2 Fix skipped test in minimal",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.789487-04:00",
+      "message": "337b1b0 Ignore missing packages",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.789919-04:00",
+      "message": "d24fd60 Cleaner dry run output for push",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.790365-04:00",
+      "message": "0b2a3ce Add example code to list directories in a go build",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.790866-04:00",
+      "message": "068f9bb ocuroot push errors out with uncommitted changes",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.791874-04:00",
+      "message": "3d440e1 Improve error handling for worker cleanup",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.792278-04:00",
+      "message": "98f8a69 Document work types",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.792805-04:00",
+      "message": "35f4456 Support directories in watches",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.793248-04:00",
+      "message": "c2df264 Additional styling for the REPL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.793714-04:00",
+      "message": "ed1b2c8 Fix dir param for shell",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.794092-04:00",
+      "message": "e7a177c Fix output width for REPL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.794494-04:00",
+      "message": "d3223db On push, release when watched files changed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.794877-04:00",
+      "message": "b1a5a1a Move push handling into the worker",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.795236-04:00",
+      "message": "7bc3d38 Initial implementation of push command",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.795582-04:00",
+      "message": "ea631d2 Removed unused contexts from release.ocu.star",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.795928-04:00",
+      "message": "af228ba Style spinner",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.796273-04:00",
+      "message": "930cc0e Handle compount statements to allow assignment in the REPL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.796625-04:00",
+      "message": "5c537e1 Use bubbletea for the REPL",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.796968-04:00",
+      "message": "6d7a500 Repopulate inputs on down",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.79731-04:00",
+      "message": "f2e79fe Allow non-2xx responses in http calls",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.797647-04:00",
+      "message": "47d94a3 Support additional HTTP methods",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:41.812247-04:00",
+      "message": "main",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:11:42.846929-04:00",
+      "message": "https://github.com/ocuroot/ocuroot/releases/tag/v0.3.17-1",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "increment_version"
+      },
+      "stream": 0
+    }
+  ]
+}
