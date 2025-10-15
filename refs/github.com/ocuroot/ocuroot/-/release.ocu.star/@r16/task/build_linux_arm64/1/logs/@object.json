@@ -1,0 +1,3273 @@
+{
+  "kind": "ref",
+  "body_type": "[]sdk.Log",
+  "body": [
+    {
+      "timestamp": "2025-10-15T15:14:09.59988-04:00",
+      "message": "Building arm64 package for version: 0.3.17",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:09.890768-04:00",
+      "message": "Building arm64 package...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:09.892482-04:00",
+      "message": "using deb packager...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.240927-04:00",
+      "message": "created package: ../.build/packages/ocuroot_0.3.17_arm64.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.249166-04:00",
+      "message": "using rpm packager...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.306958-04:00",
+      "message": "created package: ../.build/packages/ocuroot_0.3.17_arm64.rpm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.3131-04:00",
+      "message": "Package build complete!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.313181-04:00",
+      "message": "Packages created:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.314472-04:00",
+      "message": "  - /Users/tom/src/github.com/ocuroot/ocuroot/.build/packages/ocuroot_0.3.17_arm64.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.315586-04:00",
+      "message": "  - /Users/tom/src/github.com/ocuroot/ocuroot/.build/packages/ocuroot_0.3.17_arm64.rpm",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.328343-04:00",
+      "message": "Testing ocuroot arm64 package for version: 0.3.17",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.328526-04:00",
+      "message": "✓ Found arm64 package",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.332222-04:00",
+      "message": "=== Testing ARM64 Package ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.758487-04:00",
+      "message": "#1 [internal] load build definition from Dockerfile.arm64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.758714-04:00",
+      "message": "#1 transferring dockerfile: 1.85kB done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.761085-04:00",
+      "message": "#1 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.763104-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:10.765001-04:00",
+      "message": "#2 [internal] load metadata for docker.io/library/ubuntu:latest",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.025769-04:00",
+      "message": "#2 DONE 0.4s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.175869-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.176-04:00",
+      "message": "#3 [internal] load .dockerignore",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.178323-04:00",
+      "message": "#3 transferring context: 2B done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.179814-04:00",
+      "message": "#3 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.181-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.182405-04:00",
+      "message": "#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:66460d557b25769b102175144d538d88219c077c678a49af4afca6fbfc1b5252",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.183898-04:00",
+      "message": "#4 resolve docker.io/library/ubuntu:latest@sha256:66460d557b25769b102175144d538d88219c077c678a49af4afca6fbfc1b5252 0.0s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.326067-04:00",
+      "message": "#4 ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.326253-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.328262-04:00",
+      "message": "#5 [internal] load build context",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.330524-04:00",
+      "message": "#5 transferring context: 12.95MB 0.2s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.33277-04:00",
+      "message": "#5 DONE 0.2s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.334432-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.336241-04:00",
+      "message": "#4 [1/7] FROM docker.io/library/ubuntu:latest@sha256:66460d557b25769b102175144d538d88219c077c678a49af4afca6fbfc1b5252",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.337586-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 0B / 28.86MB 0.2s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.476188-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 5.24MB / 28.86MB 0.3s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.626921-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 12.58MB / 28.86MB 0.5s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.777164-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 19.92MB / 28.86MB 0.6s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:11.92819-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 26.21MB / 28.86MB 0.8s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.079174-04:00",
+      "message": "#4 sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 28.86MB / 28.86MB 0.8s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.079469-04:00",
+      "message": "#4 extracting sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.531501-04:00",
+      "message": "#4 extracting sha256:b8a35db46e38ce87d4e743e1265ff436ed36e01d23246b24a1cbbeaae18ec432 0.5s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.531979-04:00",
+      "message": "#4 DONE 1.4s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.533358-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.534427-04:00",
+      "message": "#6 [2/7] RUN apt-get update \u0026\u0026 apt-get install -y     curl     wget     file     \u0026\u0026 rm -rf /var/lib/apt/lists/*",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:12.805957-04:00",
+      "message": "#6 0.335 Get:1 http://ports.ubuntu.com/ubuntu-ports noble InRelease [256 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:13.410995-04:00",
+      "message": "#6 0.845 Get:2 http://ports.ubuntu.com/ubuntu-ports noble-updates InRelease [126 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:13.543795-04:00",
+      "message": "#6 0.964 Get:3 http://ports.ubuntu.com/ubuntu-ports noble-backports InRelease [126 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:13.543923-04:00",
+      "message": "#6 1.080 Get:4 http://ports.ubuntu.com/ubuntu-ports noble-security InRelease [126 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:13.656113-04:00",
+      "message": "#6 1.192 Get:5 http://ports.ubuntu.com/ubuntu-ports noble/restricted arm64 Packages [113 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:13.807263-04:00",
+      "message": "#6 1.224 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/universe arm64 Packages [19.0 MB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:14.402948-04:00",
+      "message": "#6 1.939 Get:7 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 Packages [1776 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.04691-04:00",
+      "message": "#6 1.991 Get:8 http://ports.ubuntu.com/ubuntu-ports noble/multiverse arm64 Packages [274 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.048076-04:00",
+      "message": "#6 2.006 Get:9 http://ports.ubuntu.com/ubuntu-ports noble-updates/universe arm64 Packages [1852 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.049251-04:00",
+      "message": "#6 2.052 Get:10 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 Packages [1981 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.050595-04:00",
+      "message": "#6 2.100 Get:11 http://ports.ubuntu.com/ubuntu-ports noble-updates/restricted arm64 Packages [3585 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.051965-04:00",
+      "message": "#6 2.253 Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/multiverse arm64 Packages [36.9 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.05338-04:00",
+      "message": "#6 2.312 Get:13 http://ports.ubuntu.com/ubuntu-ports noble-backports/universe arm64 Packages [33.9 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.055081-04:00",
+      "message": "#6 2.330 Get:14 http://ports.ubuntu.com/ubuntu-ports noble-backports/main arm64 Packages [49.4 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.05642-04:00",
+      "message": "#6 2.356 Get:15 http://ports.ubuntu.com/ubuntu-ports noble-security/multiverse arm64 Packages [35.8 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.05758-04:00",
+      "message": "#6 2.363 Get:16 http://ports.ubuntu.com/ubuntu-ports noble-security/restricted arm64 Packages [3454 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.05867-04:00",
+      "message": "#6 2.510 Get:17 http://ports.ubuntu.com/ubuntu-ports noble-security/universe arm64 Packages [1124 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.059751-04:00",
+      "message": "#6 2.565 Get:18 http://ports.ubuntu.com/ubuntu-ports noble-security/main arm64 Packages [1630 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.612373-04:00",
+      "message": "#6 3.149 Fetched 35.6 MB in 3s (11.7 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:15.612731-04:00",
+      "message": "#6 3.149 Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:16.201494-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:16.35295-04:00",
+      "message": "#6 3.756 Reading package lists...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:16.959263-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:16.959375-04:00",
+      "message": "#6 4.368 Building dependency tree...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.110673-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.111019-04:00",
+      "message": "#6 4.514 Reading state information...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.217818-04:00",
+      "message": "#6 4.715 The following additional packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.217959-04:00",
+      "message": "#6 4.715   ca-certificates krb5-locales libbrotli1 libcurl4t64 libgssapi-krb5-2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.219442-04:00",
+      "message": "#6 4.715   libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0 libldap-common libldap2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.221016-04:00",
+      "message": "#6 4.716   libmagic-mgc libmagic1t64 libnghttp2-14 libpsl5t64 librtmp1 libsasl2-2",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.222056-04:00",
+      "message": "#6 4.717   libsasl2-modules libsasl2-modules-db libssh-4 openssl publicsuffix",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.223136-04:00",
+      "message": "#6 4.718 Suggested packages:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.224192-04:00",
+      "message": "#6 4.718   krb5-doc krb5-user libsasl2-modules-gssapi-mit",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.225198-04:00",
+      "message": "#6 4.718   | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.226494-04:00",
+      "message": "#6 4.718   libsasl2-modules-sql",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.228009-04:00",
+      "message": "#6 4.754 The following NEW packages will be installed:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.368716-04:00",
+      "message": "#6 4.754   ca-certificates curl file krb5-locales libbrotli1 libcurl4t64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.369158-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.374127-04:00",
+      "message": "#6 4.754   libgssapi-krb5-2 libk5crypto3 libkeyutils1 libkrb5-3 libkrb5support0",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.376289-04:00",
+      "message": "#6 4.754   libldap-common libldap2 libmagic-mgc libmagic1t64 libnghttp2-14 libpsl5t64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.377759-04:00",
+      "message": "#6 4.755   librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh-4 openssl",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.379234-04:00",
+      "message": "#6 4.755   publicsuffix wget",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.380751-04:00",
+      "message": "#6 4.843 0 upgraded, 25 newly installed, 0 to remove and 2 not upgraded.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.382666-04:00",
+      "message": "#6 4.843 Need to get 4300 kB of archives.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.384148-04:00",
+      "message": "#6 4.843 After this operation, 19.7 MB of additional disk space will be used.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.385601-04:00",
+      "message": "#6 4.843 Get:1 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 openssl arm64 3.0.13-0ubuntu3.6 [985 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.492098-04:00",
+      "message": "#6 5.028 Get:2 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 ca-certificates all 20240203 [159 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.642277-04:00",
+      "message": "#6 5.033 Get:3 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 krb5-locales all 1.20.1-6ubuntu2.6 [14.8 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.642815-04:00",
+      "message": "#6 5.034 Get:4 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libkrb5support0 arm64 1.20.1-6ubuntu2.6 [34.8 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.647062-04:00",
+      "message": "#6 5.039 Get:5 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libk5crypto3 arm64 1.20.1-6ubuntu2.6 [85.8 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.648434-04:00",
+      "message": "#6 5.043 Get:6 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libkeyutils1 arm64 1.6.3-3build1 [9654 B]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.650118-04:00",
+      "message": "#6 5.044 Get:7 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libkrb5-3 arm64 1.20.1-6ubuntu2.6 [349 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.651305-04:00",
+      "message": "#6 5.052 Get:8 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libgssapi-krb5-2 arm64 1.20.1-6ubuntu2.6 [142 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.652426-04:00",
+      "message": "#6 5.054 Get:9 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libmagic-mgc arm64 1:5.45-3build1 [307 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.653552-04:00",
+      "message": "#6 5.058 Get:10 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libmagic1t64 arm64 1:5.45-3build1 [85.7 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.654713-04:00",
+      "message": "#6 5.061 Get:11 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 file arm64 1:5.45-3build1 [22.0 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.656188-04:00",
+      "message": "#6 5.066 Get:12 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libnghttp2-14 arm64 1.59.0-1ubuntu0.2 [74.5 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.657343-04:00",
+      "message": "#6 5.067 Get:13 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libpsl5t64 arm64 0.21.2-1.1build1 [57.4 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.659657-04:00",
+      "message": "#6 5.069 Get:14 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 publicsuffix all 20231001.0357-0.1 [129 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.661293-04:00",
+      "message": "#6 5.070 Get:15 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 wget arm64 1.21.4-1ubuntu4.1 [330 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.662565-04:00",
+      "message": "#6 5.084 Get:16 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 libbrotli1 arm64 1.1.0-2build2 [339 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.663836-04:00",
+      "message": "#6 5.089 Get:17 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsasl2-modules-db arm64 2.1.28+dfsg1-5ubuntu3.1 [21.6 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.665075-04:00",
+      "message": "#6 5.089 Get:18 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsasl2-2 arm64 2.1.28+dfsg1-5ubuntu3.1 [54.7 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.666288-04:00",
+      "message": "#6 5.090 Get:19 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libldap2 arm64 2.6.7+dfsg-1~exp1ubuntu8.2 [194 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.667456-04:00",
+      "message": "#6 5.096 Get:20 http://ports.ubuntu.com/ubuntu-ports noble/main arm64 librtmp1 arm64 2.4+20151223.gitfa8646d.1-2build7 [57.8 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.669074-04:00",
+      "message": "#6 5.098 Get:21 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libssh-4 arm64 0.10.6-2ubuntu0.1 [190 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.670365-04:00",
+      "message": "#6 5.100 Get:22 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libcurl4t64 arm64 8.5.0-2ubuntu10.6 [333 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.671992-04:00",
+      "message": "#6 5.105 Get:23 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 curl arm64 8.5.0-2ubuntu10.6 [222 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.673204-04:00",
+      "message": "#6 5.109 Get:24 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libldap-common all 2.6.7+dfsg-1~exp1ubuntu8.2 [31.7 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.674352-04:00",
+      "message": "#6 5.109 Get:25 http://ports.ubuntu.com/ubuntu-ports noble-updates/main arm64 libsasl2-modules arm64 2.1.28+dfsg1-5ubuntu3.1 [69.6 kB]",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.750989-04:00",
+      "message": "#6 5.207 debconf: delaying package configuration, since apt-utils is not installed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.751114-04:00",
+      "message": "#6 5.237 Fetched 4300 kB in 0s (12.4 MB/s)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.752744-04:00",
+      "message": "#6 5.252 Selecting previously unselected package openssl.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.754105-04:00",
+      "message": "#6 5.252 (Reading database ... \r(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r(Reading database ... 80%\r(Reading database ... 85%\r(Reading database ... 90%\r(Reading database ... 95%\r(Reading database ... 100%\r(Reading database ... 4376 files and directories currently installed.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.7555-04:00",
+      "message": "#6 5.255 Preparing to unpack .../00-openssl_3.0.13-0ubuntu3.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.757218-04:00",
+      "message": "#6 5.257 Unpacking openssl (3.0.13-0ubuntu3.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.758505-04:00",
+      "message": "#6 5.287 Selecting previously unselected package ca-certificates.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.8708-04:00",
+      "message": "#6 5.288 Preparing to unpack .../01-ca-certificates_20240203_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.87134-04:00",
+      "message": "#6 5.290 Unpacking ca-certificates (20240203) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.87296-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.874246-04:00",
+      "message": "#6 5.319 Selecting previously unselected package krb5-locales.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.875504-04:00",
+      "message": "#6 5.320 Preparing to unpack .../02-krb5-locales_1.20.1-6ubuntu2.6_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.876816-04:00",
+      "message": "#6 5.321 Unpacking krb5-locales (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.878063-04:00",
+      "message": "#6 5.337 Selecting previously unselected package libkrb5support0:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.879785-04:00",
+      "message": "#6 5.338 Preparing to unpack .../03-libkrb5support0_1.20.1-6ubuntu2.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.881072-04:00",
+      "message": "#6 5.343 Unpacking libkrb5support0:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.882368-04:00",
+      "message": "#6 5.361 Selecting previously unselected package libk5crypto3:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.883741-04:00",
+      "message": "#6 5.362 Preparing to unpack .../04-libk5crypto3_1.20.1-6ubuntu2.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.88502-04:00",
+      "message": "#6 5.365 Unpacking libk5crypto3:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.886807-04:00",
+      "message": "#6 5.384 Selecting previously unselected package libkeyutils1:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.88811-04:00",
+      "message": "#6 5.385 Preparing to unpack .../05-libkeyutils1_1.6.3-3build1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.8893-04:00",
+      "message": "#6 5.387 Unpacking libkeyutils1:arm64 (1.6.3-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.890468-04:00",
+      "message": "#6 5.407 Selecting previously unselected package libkrb5-3:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.984162-04:00",
+      "message": "#6 5.408 Preparing to unpack .../06-libkrb5-3_1.20.1-6ubuntu2.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.984299-04:00",
+      "message": "#6 5.411 Unpacking libkrb5-3:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.985724-04:00",
+      "message": "#6 5.435 Selecting previously unselected package libgssapi-krb5-2:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.987115-04:00",
+      "message": "#6 5.436 Preparing to unpack .../07-libgssapi-krb5-2_1.20.1-6ubuntu2.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.988494-04:00",
+      "message": "#6 5.439 Unpacking libgssapi-krb5-2:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.990377-04:00",
+      "message": "#6 5.455 Selecting previously unselected package libmagic-mgc.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.991784-04:00",
+      "message": "#6 5.456 Preparing to unpack .../08-libmagic-mgc_1%3a5.45-3build1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.993155-04:00",
+      "message": "#6 5.458 Unpacking libmagic-mgc (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.994434-04:00",
+      "message": "#6 5.502 Selecting previously unselected package libmagic1t64:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.995739-04:00",
+      "message": "#6 5.503 Preparing to unpack .../09-libmagic1t64_1%3a5.45-3build1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.997226-04:00",
+      "message": "#6 5.506 Unpacking libmagic1t64:arm64 (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.99851-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:17.999749-04:00",
+      "message": "#6 5.520 Selecting previously unselected package file.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.088739-04:00",
+      "message": "#6 5.521 Preparing to unpack .../10-file_1%3a5.45-3build1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.088853-04:00",
+      "message": "#6 5.524 Unpacking file (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.090494-04:00",
+      "message": "#6 5.542 Selecting previously unselected package libnghttp2-14:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.091869-04:00",
+      "message": "#6 5.543 Preparing to unpack .../11-libnghttp2-14_1.59.0-1ubuntu0.2_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.093104-04:00",
+      "message": "#6 5.545 Unpacking libnghttp2-14:arm64 (1.59.0-1ubuntu0.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.094302-04:00",
+      "message": "#6 5.563 Selecting previously unselected package libpsl5t64:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.095551-04:00",
+      "message": "#6 5.564 Preparing to unpack .../12-libpsl5t64_0.21.2-1.1build1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.097345-04:00",
+      "message": "#6 5.566 Unpacking libpsl5t64:arm64 (0.21.2-1.1build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.098681-04:00",
+      "message": "#6 5.581 Selecting previously unselected package publicsuffix.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.099954-04:00",
+      "message": "#6 5.583 Preparing to unpack .../13-publicsuffix_20231001.0357-0.1_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.101209-04:00",
+      "message": "#6 5.585 Unpacking publicsuffix (20231001.0357-0.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.102541-04:00",
+      "message": "#6 5.602 Selecting previously unselected package wget.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.1043-04:00",
+      "message": "#6 5.603 Preparing to unpack .../14-wget_1.21.4-1ubuntu4.1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.105538-04:00",
+      "message": "#6 5.606 Unpacking wget (1.21.4-1ubuntu4.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.106844-04:00",
+      "message": "#6 5.625 Selecting previously unselected package libbrotli1:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.200743-04:00",
+      "message": "#6 5.626 Preparing to unpack .../15-libbrotli1_1.1.0-2build2_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.200863-04:00",
+      "message": "#6 5.629 Unpacking libbrotli1:arm64 (1.1.0-2build2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.20239-04:00",
+      "message": "#6 5.651 Selecting previously unselected package libsasl2-modules-db:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.203867-04:00",
+      "message": "#6 5.652 Preparing to unpack .../16-libsasl2-modules-db_2.1.28+dfsg1-5ubuntu3.1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.205233-04:00",
+      "message": "#6 5.655 Unpacking libsasl2-modules-db:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.206483-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.207735-04:00",
+      "message": "#6 5.671 Selecting previously unselected package libsasl2-2:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.209471-04:00",
+      "message": "#6 5.672 Preparing to unpack .../17-libsasl2-2_2.1.28+dfsg1-5ubuntu3.1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.210823-04:00",
+      "message": "#6 5.674 Unpacking libsasl2-2:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.212156-04:00",
+      "message": "#6 5.692 Selecting previously unselected package libldap2:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.213436-04:00",
+      "message": "#6 5.694 Preparing to unpack .../18-libldap2_2.6.7+dfsg-1~exp1ubuntu8.2_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.214705-04:00",
+      "message": "#6 5.697 Unpacking libldap2:arm64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.216262-04:00",
+      "message": "#6 5.716 Selecting previously unselected package librtmp1:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.217565-04:00",
+      "message": "#6 5.717 Preparing to unpack .../19-librtmp1_2.4+20151223.gitfa8646d.1-2build7_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.218883-04:00",
+      "message": "#6 5.719 Unpacking librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build7) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.220246-04:00",
+      "message": "#6 5.737 Selecting previously unselected package libssh-4:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.302961-04:00",
+      "message": "#6 5.738 Preparing to unpack .../20-libssh-4_0.10.6-2ubuntu0.1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.303078-04:00",
+      "message": "#6 5.740 Unpacking libssh-4:arm64 (0.10.6-2ubuntu0.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.304788-04:00",
+      "message": "#6 5.758 Selecting previously unselected package libcurl4t64:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.30609-04:00",
+      "message": "#6 5.759 Preparing to unpack .../21-libcurl4t64_8.5.0-2ubuntu10.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.307457-04:00",
+      "message": "#6 5.761 Unpacking libcurl4t64:arm64 (8.5.0-2ubuntu10.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.309321-04:00",
+      "message": "#6 5.776 Selecting previously unselected package curl.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.310614-04:00",
+      "message": "#6 5.778 Preparing to unpack .../22-curl_8.5.0-2ubuntu10.6_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.311898-04:00",
+      "message": "#6 5.779 Unpacking curl (8.5.0-2ubuntu10.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.313283-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.314497-04:00",
+      "message": "#6 5.793 Selecting previously unselected package libldap-common.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.316168-04:00",
+      "message": "#6 5.794 Preparing to unpack .../23-libldap-common_2.6.7+dfsg-1~exp1ubuntu8.2_all.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.317522-04:00",
+      "message": "#6 5.795 Unpacking libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.318808-04:00",
+      "message": "#6 5.810 Selecting previously unselected package libsasl2-modules:arm64.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.32011-04:00",
+      "message": "#6 5.812 Preparing to unpack .../24-libsasl2-modules_2.1.28+dfsg1-5ubuntu3.1_arm64.deb ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.321324-04:00",
+      "message": "#6 5.815 Unpacking libsasl2-modules:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.322941-04:00",
+      "message": "#6 5.835 Setting up libkeyutils1:arm64 (1.6.3-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.324272-04:00",
+      "message": "#6 5.839 Setting up libmagic-mgc (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.439486-04:00",
+      "message": "#6 5.845 Setting up libbrotli1:arm64 (1.1.0-2build2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.439842-04:00",
+      "message": "#6 5.851 Setting up libsasl2-modules:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.441748-04:00",
+      "message": "#6 5.859 Setting up libmagic1t64:arm64 (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.443023-04:00",
+      "message": "#6 5.866 Setting up libpsl5t64:arm64 (0.21.2-1.1build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.44422-04:00",
+      "message": "#6 5.871 Setting up libnghttp2-14:arm64 (1.59.0-1ubuntu0.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.445559-04:00",
+      "message": "#6 5.875 Setting up krb5-locales (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.446726-04:00",
+      "message": "#6 5.879 Setting up file (1:5.45-3build1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.448384-04:00",
+      "message": "#6 5.884 Setting up libldap-common (2.6.7+dfsg-1~exp1ubuntu8.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.449755-04:00",
+      "message": "#6 5.889 Setting up libkrb5support0:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.450991-04:00",
+      "message": "#6 5.893 Setting up libsasl2-modules-db:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.452192-04:00",
+      "message": "#6 5.896 Setting up librtmp1:arm64 (2.4+20151223.gitfa8646d.1-2build7) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.453463-04:00",
+      "message": "#6 5.900 Setting up libk5crypto3:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.455134-04:00",
+      "message": "#6 5.904 Setting up libsasl2-2:arm64 (2.1.28+dfsg1-5ubuntu3.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.456397-04:00",
+      "message": "#6 5.909 Setting up libkrb5-3:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.457569-04:00",
+      "message": "#6 5.913 Setting up openssl (3.0.13-0ubuntu3.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.458722-04:00",
+      "message": "#6 5.918 Setting up publicsuffix (20231001.0357-0.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.459993-04:00",
+      "message": "#6 5.923 Setting up libldap2:arm64 (2.6.7+dfsg-1~exp1ubuntu8.2) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.461768-04:00",
+      "message": "#6 5.929 Setting up wget (1.21.4-1ubuntu4.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.463-04:00",
+      "message": "#6 5.935 Setting up ca-certificates (20240203) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.464169-04:00",
+      "message": "#6 5.976 debconf: unable to initialize frontend: Dialog\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.466491-04:00",
+      "message": "#6 5.976 debconf: (TERM is not set, so the dialog frontend is not usable.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.467804-04:00",
+      "message": "#6 5.976 debconf: falling back to frontend: Readline\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.590566-04:00",
+      "message": "#6 5.976 debconf: unable to initialize frontend: Readline\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.590683-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.592103-04:00",
+      "message": "#6 5.976 debconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC entries checked: /etc/perl /usr/local/lib/aarch64-linux-gnu/perl/5.38.2 /usr/local/share/perl/5.38.2 /usr/lib/aarch64-linux-gnu/perl5/5.38 /usr/share/perl5 /usr/lib/aarch64-linux-gnu/perl-base /usr/lib/aarch64-linux-gnu/perl/5.38 /usr/share/perl/5.38 /usr/local/lib/site_perl) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 8.)\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.593336-04:00",
+      "message": "#6 5.976 debconf: falling back to frontend: Teletype\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:18.705678-04:00",
+      "message": "#6 6.242 Updating certificates in /etc/ssl/certs...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.157992-04:00",
+      "message": "#6 6.577 146 added, 0 removed; done.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.158403-04:00",
+      "message": "#6 6.594 Setting up libgssapi-krb5-2:arm64 (1.20.1-6ubuntu2.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.987296-04:00",
+      "message": "#6 6.598 Setting up libssh-4:arm64 (0.10.6-2ubuntu0.1) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.990269-04:00",
+      "message": "#6 6.602 Setting up libcurl4t64:arm64 (8.5.0-2ubuntu10.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.991761-04:00",
+      "message": "#6 6.606 Setting up curl (8.5.0-2ubuntu10.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.993064-04:00",
+      "message": "#6 6.610 Processing triggers for libc-bin (2.39-0ubuntu8.6) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.994715-04:00",
+      "message": "#6 6.618 Processing triggers for ca-certificates (20240203) ...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.995889-04:00",
+      "message": "#6 6.621 Updating certificates in /etc/ssl/certs...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.997263-04:00",
+      "message": "#6 6.867 0 added, 0 removed; done.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:19.999152-04:00",
+      "message": "#6 6.867 Running hooks in /etc/ca-certificates/update.d...\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.000651-04:00",
+      "message": "#6 6.867 done.\r",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.002069-04:00",
+      "message": "#6 DONE 7.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.003409-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.00472-04:00",
+      "message": "#7 [3/7] COPY .build/packages/ocuroot_0.3.17_arm64.deb /tmp/ocuroot.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.006508-04:00",
+      "message": "#7 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.00784-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.009177-04:00",
+      "message": "#8 [4/7] RUN dpkg -i /tmp/ocuroot.deb || (apt-get update \u0026\u0026 apt-get install -f -y \u0026\u0026 dpkg -i /tmp/ocuroot.deb)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.010564-04:00",
+      "message": "#8 0.160 Selecting previously unselected package ocuroot.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.011959-04:00",
+      "message": "#8 0.163 (Reading database ... 5052 files and directories currently installed.)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.013831-04:00",
+      "message": "#8 0.164 Preparing to unpack /tmp/ocuroot.deb ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.015105-04:00",
+      "message": "#8 0.165 Unpacking ocuroot (0.3.17) ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.016544-04:00",
+      "message": "#8 0.268 Setting up ocuroot (0.3.17) ...",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.01803-04:00",
+      "message": "#8 DONE 0.3s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.019282-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.021171-04:00",
+      "message": "#9 [5/7] RUN set -e \u0026\u0026     echo \"=== Package Installation Tests ===\" \u0026\u0026     dpkg -l | grep ocuroot \u0026\u0026     echo \"✓ Package is installed\" \u0026\u0026         echo \"=== Binary Tests ===\" \u0026\u0026     ls -la /usr/bin/ocuroot \u0026\u0026     file /usr/bin/ocuroot \u0026\u0026     echo \"✓ Binary exists and is executable\" \u0026\u0026         echo \"=== Architecture Tests ===\" \u0026\u0026     file /usr/bin/ocuroot | grep \"aarch64\" \u0026\u0026     echo \"✓ Binary is correct architecture (aarch64)\" \u0026\u0026         echo \"=== Functionality Tests ===\" \u0026\u0026     ocuroot --help \u003e /dev/null \u0026\u0026     echo \"✓ Help command works\" \u0026\u0026     ocuroot version \u003e /dev/null \u0026\u0026     echo \"✓ Version command works\" \u0026\u0026         echo \"=== Package Metadata Tests ===\" \u0026\u0026     PACKAGE_VERSION=$(dpkg -s ocuroot | grep '^Version:' | cut -d' ' -f2) \u0026\u0026     echo \"Package version: $PACKAGE_VERSION\" \u0026\u0026     EXPECTED_PACKAGE_VERSION=$(echo \"0.3.17\" | cut -d'-' -f1) \u0026\u0026     echo \"Expected package version: $EXPECTED_PACKAGE_VERSION\" \u0026\u0026     [ \"$PACKAGE_VERSION\" = \"$EXPECTED_PACKAGE_VERSION\" ] \u0026\u0026     echo \"✓ Package version matches expected version\" \u0026\u0026         echo \"=== All tests passed! ===\"",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.022619-04:00",
+      "message": "#0 0.105 === Package Installation Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.158397-04:00",
+      "message": "#9 0.108 ii  ocuroot                   0.3.17                            arm64        Ocuroot is the Ocuroot CLI tool.",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.158531-04:00",
+      "message": "#9 0.108 ✓ Package is installed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.160192-04:00",
+      "message": "#9 0.108 === Binary Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.161706-04:00",
+      "message": "#9 0.108 -rwxr-xr-x 1 root root 26113957 Oct 15 19:14 /usr/bin/ocuroot",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.16322-04:00",
+      "message": "#9 0.115 /usr/bin/ocuroot: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=14f80591890249bcdf08ad59a86e1bdd5200942f, with debug_info, not stripped",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.164488-04:00",
+      "message": "#9 0.116 ✓ Binary exists and is executable",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.165733-04:00",
+      "message": "#9 0.116 === Architecture Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.167674-04:00",
+      "message": "#9 0.121 /usr/bin/ocuroot: ELF 64-bit LSB executable, ARM aarch64, version 1 (SYSV), statically linked, BuildID[sha1]=14f80591890249bcdf08ad59a86e1bdd5200942f, with debug_info, not stripped",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.169037-04:00",
+      "message": "#9 0.122 ✓ Binary is correct architecture (aarch64)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.170358-04:00",
+      "message": "#9 0.122 === Functionality Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.171743-04:00",
+      "message": "#9 0.128 ✓ Help command works",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.173263-04:00",
+      "message": "#9 0.130 Logs at: /root/.ocuroot/logs/1760555660078930394-version.log",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.175191-04:00",
+      "message": "#9 0.131 ✓ Version command works",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.177491-04:00",
+      "message": "#9 0.131 === Package Metadata Tests ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.179169-04:00",
+      "message": "#9 0.133 Package version: 0.3.17",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.180634-04:00",
+      "message": "#9 0.134 Expected package version: 0.3.17",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.182121-04:00",
+      "message": "#9 0.134 ✓ Package version matches expected version",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.183817-04:00",
+      "message": "#9 0.134 === All tests passed! ===",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.185246-04:00",
+      "message": "#9 DONE 0.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.186661-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.188327-04:00",
+      "message": "#10 [6/7] RUN rm /tmp/ocuroot.deb",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.190139-04:00",
+      "message": "#10 DONE 0.1s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.308977-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.309113-04:00",
+      "message": "#11 [7/7] WORKDIR /root",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.310751-04:00",
+      "message": "#11 DONE 0.0s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.312521-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.314398-04:00",
+      "message": "#12 exporting to image",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:20.31575-04:00",
+      "message": "#12 exporting layers",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.038722-04:00",
+      "message": "#12 exporting layers 0.8s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.189783-04:00",
+      "message": "#12 exporting manifest sha256:8323d03452fbf65376cd47f6ae9e293266b1310538068951feaf097b114ecc9c done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.189912-04:00",
+      "message": "#12 exporting config sha256:91ba79ff921783a9d6cb122376b880ea491bf18b3166a27f9b80c53c909d1fb7 done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.191401-04:00",
+      "message": "#12 naming to docker.io/library/ocuroot-test-arm64:latest done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.193201-04:00",
+      "message": "#12 unpacking to docker.io/library/ocuroot-test-arm64:latest",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.43109-04:00",
+      "message": "#12 unpacking to docker.io/library/ocuroot-test-arm64:latest 0.3s done",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.431237-04:00",
+      "message": "#12 DONE 1.2s",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.433455-04:00",
+      "message": "✓ arm64 package test passed",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.434573-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.435982-04:00",
+      "message": "🎉 arm64 package test passed!",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.437342-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.439001-04:00",
+      "message": "Available test image:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.440402-04:00",
+      "message": "  - ocuroot-test-arm64 (for arm64 testing)",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.441704-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.442979-04:00",
+      "message": "To run interactive test:",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:21.444658-04:00",
+      "message": "  docker run -it --rm ocuroot-test-arm64",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:30.418282-04:00",
+      "message": "a ocuroot",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    },
+    {
+      "timestamp": "2025-10-15T15:14:31.22354-04:00",
+      "message": "",
+      "attributes": {
+        "col": "30",
+        "filename": "sdk/0.3.0/host.star",
+        "line": "45",
+        "thread": "build"
+      },
+      "stream": 0
+    }
+  ]
+}
