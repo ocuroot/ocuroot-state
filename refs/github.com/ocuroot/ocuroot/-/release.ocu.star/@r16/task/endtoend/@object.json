@@ -1,0 +1,14 @@
+{
+  "kind": "ref",
+  "body_type": "models.Task",
+  "links": [
+    "github.com/ocuroot/ocuroot/-/release.ocu.star/@/task/endtoend"
+  ],
+  "body": {
+    "run_ref": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r16/task/endtoend/1",
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r16",
+    "input": {},
+    "output": {}
+  }
+}
