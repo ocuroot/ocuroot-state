@@ -1,0 +1,22 @@
+{
+  "kind": "ref",
+  "body_type": "models.Run",
+  "body": {
+    "type": "task",
+    "release": "github.com/ocuroot/ocuroot/-/release.ocu.star/@r16",
+    "functions": [
+      {
+        "fn": {
+          "name": "endtoend",
+          "pos": "release.ocu.star:15:1"
+        },
+        "dependencies": [
+          "github.com/ocuroot/ocuroot/-/release.ocu.star/@r16/task/unit_test/*/status/complete"
+        ],
+        "inputs": {}
+      }
+    ],
+    "output": null,
+    "watch_files": null
+  }
+}
