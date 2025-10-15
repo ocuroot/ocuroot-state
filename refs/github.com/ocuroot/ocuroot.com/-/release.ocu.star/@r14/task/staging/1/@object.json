@@ -1,6 +1,6 @@
 {
   "kind": "ref",
-  "body_type": "models.Run",
+  "body_type": "*models.Run",
   "body": {
     "type": "task",
     "release": "github.com/ocuroot/ocuroot.com/-/release.ocu.star/@r14",
@@ -13,7 +13,10 @@
         "inputs": {}
       }
     ],
-    "output": null,
-    "watch_files": null
+    "output": {
+      "tag": "9f61e0b",
+      "version_id": "548921e1-5ce9-4aff-8eb1-7b0816cf9265"
+    },
+    "watch_files": []
   }
 }
