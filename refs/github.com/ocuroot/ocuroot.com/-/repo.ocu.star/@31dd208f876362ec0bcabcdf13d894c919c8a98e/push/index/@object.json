@@ -1,6 +1,9 @@
 {
   "kind": "ref",
   "body_type": "*models.PushIndex",
+  "links": [
+    "github.com/ocuroot/ocuroot.com/-/repo.ocu.star/@/push/index"
+  ],
   "body": {
     "commit": "31dd208f876362ec0bcabcdf13d894c919c8a98e",
     "previous_commit": "",
